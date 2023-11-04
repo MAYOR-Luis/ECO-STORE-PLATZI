@@ -1,0 +1,91 @@
+@media screen and (min-width: 1000px) {
+  body nav {
+    max-width: none;
+    padding: 0 30px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  body nav .icons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+  }
+  body main {
+    max-width: none;
+    width: 65%;
+  }
+  body main .firts-section {
+    position: relative;
+  }
+  body main .firts-section .impact-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 5%;
+    bottom: 20%;
+  }
+  body main .firts-section .impact-section p {
+    padding: 30px 0 80px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  body main .firts-section .impact-section button {
+    margin: 0;
+  }
+  body main .firts-section .impact-section .image-section {
+    margin: 0 0 0 20px;
+  }
+  body main .product-section .healthcare h2,
+  body main .product-section .furniture h2 {
+    margin: 100px 0 20px 50px;
+  }
+  body main .product-section .healthcare .card-section,
+  body main .product-section .furniture .card-section {
+    grid-template-rows: repeat(2, 1fr);
+    overflow-x: auto;
+    overscroll-behavior-x: none;
+    justify-content: normal;
+    justify-items: center;
+    scroll-snap-type: none;
+    row-gap: 30px;
+  }
+  body main .product-section .healthcare .card-section .product-card .card-content,
+  body main .product-section .furniture .card-section .product-card .card-content {
+    padding: 10px 10px 28px;
+  }
+  body main .product-section .healthcare .card-section .product-card .card-content span,
+  body main .product-section .furniture .card-section .product-card .card-content span {
+    justify-content: right;
+    padding-bottom: 10px;
+  }
+  body main .product-section .furniture .card-section {
+    overflow-y: initial;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  body main .info-section .about-us h2 {
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  body main .info-section .about-us .mission-section {
+    flex-direction: row;
+  }
+  body main .info-section .gallery {
+    margin: 70px 0 100px;
+  }
+  body main .info-section .gallery h2 {
+    padding-left: 50px;
+  }
+  body main .info-section .gallery .img-styles {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+  body main .info-section .gallery .img-styles img {
+    width: 200px;
+    height: 250px;
+  }
+  body main .info-section .location .map .p-1 {
+    width: auto;
+  }
+}
